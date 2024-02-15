@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardViewExercise"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="15dp"
+    app:cardCornerRadius="12dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@drawable/workout_border">
+
+        <ImageView
+            android:id="@+id/workout_logo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/logo_1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/workout_tv_exerciseName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Egzersiz Adi"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/workout_tv_muscleGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kas Grubu"
+                android:paddingTop="8dp"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/workout_et_repCount"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/text_border_background"
+                android:ems="10"
+                android:hint="Rep Count"
+                android:textColorHint="@android:color/darker_gray"
+                android:inputType="numberDecimal"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+
+            <EditText
+                android:id="@+id/workout_et_setCount"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/text_border_background"
+                android:ems="10"
+                android:hint="Set Count"
+                android:textColorHint="@android:color/darker_gray"
+                android:inputType="numberDecimal"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/workout_bt_select"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background"
+                android:text="Add"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

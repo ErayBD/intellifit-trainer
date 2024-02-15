@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SupportActivity"
+    android:background="@drawable/main_bg">
+
+    <LinearLayout
+        android:id="@+id/support_ll_main"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="1.0"
+        app:layout_constraintHeight_percent="1"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="30dp"
+        android:weightSum="5">
+
+
+        <ImageView
+            android:id="@+id/support_iv_logo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            app:srcCompat="@drawable/logo_2"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/support_tv_seperator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Get in Touch\nWith our Team"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:padding="12sp"
+            />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <RadioGroup
+            android:id="@+id/support_radiogroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="1">
+
+            <RadioButton
+                android:id="@+id/support_radiobutton_suggest"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Suggest"
+                android:layout_weight="1"
+                app:buttonTint="@color/white"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/support_radiobutton_complaint"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Complaint"
+                android:layout_weight="1"
+                app:buttonTint="@color/white"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/support_radiobutton_thankyou"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Thanks"
+                android:layout_weight="1"
+                app:buttonTint="@color/white"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+<EditText
+            android:id="@+id/support_et_subject"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/text_border_background"
+            android:ems="10"
+            android:hint="Subject"
+            android:textColorHint="@android:color/darker_gray"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/support_et_message"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/text_border_background"
+            android:ems="10"
+            android:hint="Your Message"
+            android:textColorHint="@android:color/darker_gray"
+            android:inputType="textMultiLine"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:gravity="start"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/support_bt_send"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_background"
+            android:text="Send"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

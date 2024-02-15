@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">IntelliFit Trainer</string>
+
+    <string name="sign_up">
+    <u>Don\'t have an account? Sign up now!</u>
+    </string>
+
+    <string name="forgot_password">
+    <u>Forgot your password?</u>
+    </string>
+
+    <string-array name="genders">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+</resources>
