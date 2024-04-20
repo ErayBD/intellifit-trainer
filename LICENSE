@@ -175,6 +175,21 @@
 
    END OF TERMS AND CONDITIONS
 
+   Commons Clause Restriction:
+
+     The Software is provided to you by the Licensor under the License,
+     as defined below, subject to the following condition.
+  
+     Notwithstanding any other provision of the License, the Software
+     shall not be used for Commercial Use. For the purposes of the
+     Commons Clause restriction: "Commercial Use" includes but is not
+     limited to selling, leasing, licensing, or otherwise commercializing
+     the Software or any part of the Software itself, directly or indirectly,
+     including but not limited to use of the Software in a product or
+     service, advertising, marketing, or promotion.
+
+     If you have any questions regarding this restriction, please contact erayberkdalkiran@gmail.com.
+
    APPENDIX: How to apply the Apache License to your work.
 
       To apply the Apache License to your work, attach the following
@@ -186,7 +201,7 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright 2024 Eray Berk Dalkıran
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
