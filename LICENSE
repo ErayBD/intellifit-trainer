@@ -1,4 +1,30 @@
-                                 Apache License
+Important Notice Regarding License:
+
+   This project is licensed under the Apache License, Version 2.0 (January 2004),
+   with the inclusion of the "Commons Clause" License Condition v1.0. While you
+   are free to use, modify, and distribute this software, it is important to
+   note that the software is not to be sold.
+  
+   Under the "Commons Clause" restriction, "Sell" is defined as the act of
+   providing the software to third parties for a fee or other consideration,
+   which includes, without limitation, fees for hosting or consulting/support
+   services related to the software. Therefore, the value derived from the software,
+   either entirely or substantially, should not be commercialized in any form.
+  
+   The software shall not be used for any form of commercial gain, and the rights
+   under the Apache License to sell the software are explicitly excluded. Please
+   be aware that commercial licensing, direct or indirect revenue generation, or
+   selling services that include functionality from this software, is strictly
+   prohibited without prior permission.
+  
+   For the full license text and the Commons Clause restriction, please refer to
+   the LICENSE file in this repository. If you have any questions regarding these
+   restrictions or wish to negotiate terms for commercial use, please contact
+   erayberkdalkiran@gmail.com.
+
+
+
+                                Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -175,20 +201,27 @@
 
    END OF TERMS AND CONDITIONS
 
-   Commons Clause Restriction:
+   “Commons Clause” License Condition v1.0
 
-     The Software is provided to you by the Licensor under the License,
-     as defined below, subject to the following condition.
-  
-     Notwithstanding any other provision of the License, the Software
-     shall not be used for Commercial Use. For the purposes of the
-     Commons Clause restriction: "Commercial Use" includes but is not
-     limited to selling, leasing, licensing, or otherwise commercializing
-     the Software or any part of the Software itself, directly or indirectly,
-     including but not limited to use of the Software in a product or
-     service, advertising, marketing, or promotion.
-
-     If you have any questions regarding this restriction, please contact erayberkdalkiran@gmail.com.
+      The Software is provided to you by the Licensor under the License,
+      as defined below, subject to the following condition.
+    
+      Without limiting other conditions in the License, the grant of
+      rights under the License will not include, and the License does
+      not grant to you, the right to Sell the Software.
+    
+      For purposes of the foregoing, “Sell” means practicing any or all
+      of the rights granted to you under the License to provide to third
+      parties, for a fee or other consideration (including without
+      limitation fees for hosting or consulting/ support services related
+      to the Software), a product or service whose value derives, entirely
+      or substantially, from the functionality of the Software. Any license
+      notice or attribution required by the License must also include this
+      Commons Clause License Condition notice.
+    
+      Software: IntelliFit Trainer
+      License: Apache 2.0
+      Licensor: Eray Berk DALKIRAN
 
    APPENDIX: How to apply the Apache License to your work.
 
@@ -201,7 +234,7 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright 2024 Eray Berk Dalkıran
+   Copyright 2024 Eray Berk DALKIRAN
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
