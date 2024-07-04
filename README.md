@@ -80,7 +80,15 @@ Users can send their suggestions, complaints or thanks directly by e-mail in-app
 <img src="https://github.com/ErayBD/intellifit-trainer/assets/71061070/973dcb6c-2f67-4cf0-abbc-da27fee8316d" style="width: 33%;"/>  
 <img src="https://github.com/ErayBD/intellifit-trainer/assets/71061070/0365fdc9-0667-4527-84ae-dcf7e8030634" style="width: 33%;"/>
 
-## 7. Contact and Support
+## 7. Pose Estimation Example GIF
+<img src="https://github.com/ErayBD/ErayBD/assets/71061070/bd84d5b7-0c62-4410-a392-5782d16cc71a" width ="350"><br>
+
+## 8. Application Introduction Video
+<div align="left">
+  <a href="https://www.youtube.com/watch?v=mWHdkRL0bl4" target="_blank"> <img src="https://github.com/ErayBD/intellifit-trainer/assets/71061070/22aa4a79-0df6-436d-b45f-d20611863359" alt="Video Title" style="width:70%;"></a>
+</div>
+
+## 9. Contact and Support
 Do you have a question or need some support? Contact me at erayberkdalkiran@gmail.com
 
 
